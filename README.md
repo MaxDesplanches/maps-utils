@@ -1,10 +1,6 @@
-<a name="readme-top"></a>
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-
   </a>
 
   <h3 align="center">Maps Utils</h3>
