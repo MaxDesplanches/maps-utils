@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": true,
+    "strict": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "removeComments": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noImplicitThis": true,
+    "preserveConstEnums": true,
+    "strictPropertyInitialization": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "alwaysStrict": true,
+    "strictFunctionTypes": true,
+    "noUnusedLocals": true
+  },
+  "include": [ "./**/*.ts" ],
+  "exclude": ["./build"]
+}
