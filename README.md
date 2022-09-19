@@ -27,7 +27,7 @@ http://www.movable-type.co.uk/scripts/latlong.html
 Install NPM packages:
 
 ```sh
-npm install @MaxDesplanches/maps-utils
+npm install @maxdesplanches/maps-utils
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -37,7 +37,7 @@ npm install @MaxDesplanches/maps-utils
 ## Usage
 
 ```javascript
-const maps = require("@MaxDesplanches/maps-utils");
+const mapsUtils = require("@maxdesplanches/maps-utils");
 
 const location1 = {
   latitude1: 43.6206597,
@@ -49,7 +49,7 @@ const location2 = {
   longitude2: 3.8519288,
 };
 
-const distanceInKm = maps.distanceInKmBetweenEarthCoordinates({
+const distanceInKm = mapsUtils.distanceInKmBetweenEarthCoordinates({
   ...location1,
   ...location2,
 });
