@@ -49,7 +49,12 @@ const location2 = {
   longitude2: 3.8519288,
 };
 
-const distanceInKm = mapsUtils.distanceInKmBetweenEarthCoordinates({
+const distanceInKm = mapsUtils.getKmDistanceFromCoordinates({
+  ...location1,
+  ...location2,
+});
+
+const angleInDegree = mapsUtils.getDegreeAngleFromCoordinates({
   ...location1,
   ...location2,
 });
