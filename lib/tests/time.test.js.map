@@ -1,0 +1,1 @@
+{"version":3,"file":"time.test.js","sourceRoot":"","sources":["../../tests/time.test.ts"],"names":[],"mappings":";;AAAA,gCAA2D;AAE3D,IAAI,CAAC,kBAAkB,EAAE,GAAG,EAAE;IAC5B,MAAM,QAAQ,GAAG,IAAA,uBAAiB,EAAC,CAAC,EAAE,oBAAc,CAAC,IAAI,CAAC,CAAC;IAE3D,MAAM,cAAc,GAAG,EAAE,CAAC;IAE1B,MAAM,CAAC,QAAQ,CAAC,CAAC,IAAI,CAAC,cAAc,CAAC,CAAC;AACxC,CAAC,CAAC,CAAC"}

@@ -1,6 +1,6 @@
 {
   "name": "@maxdesplanches/maps-utils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Calculate from 2D coordinates distance in km with Haversine method",
   "main": "index.js",
   "env": {

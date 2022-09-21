@@ -57,7 +57,7 @@ const distanceInKm = mapsUtils.getDistanceFromCoordinates(coordinates);
 
 const angleInDegree = mapsUtils.getDegreeAngleFromCoordinates(coordinates);
 
-const transportation = Transportation.BUS;
+const transportation = mapsUtils.Transportation.BUS;
 
 const timeInMn1 = mapsUtils.getTimeInMnFromKm(distance, transportation);
 
