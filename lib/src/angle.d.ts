@@ -1,1 +1,2 @@
-export declare function angleFromCoordinates({ latitude1, longitude1, latitude2, longitude2, }: I2DCoordinates): number;
+import { I2DCoordinates } from "./interface";
+export declare function getDegreeAngleFromCoordinates(coordinates: I2DCoordinates): number;

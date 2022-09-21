@@ -6,7 +6,7 @@
   <h3 align="center">Maps Utils</h3>
 
   <p align="center">
-    An package to calculate distance with Haversine formula.
+    An package to have maps utils to calculate distance (Haversine formula), angle between coordinates 
     <br />
 
 </div>
@@ -15,8 +15,7 @@
 
 ## About The Project
 
-I needed a method to have distance between 2 coordinates, with Haversine formula:
-http://www.movable-type.co.uk/scripts/latlong.html
+The goal of this project is to provide utils for your maps calculation as distance, angle, time.
 
 <!-- GETTING STARTED -->
 
@@ -49,15 +48,23 @@ const location2 = {
   longitude2: 3.8519288,
 };
 
-const distanceInKm = mapsUtils.getKmDistanceFromCoordinates({
+const coordinates = {
   ...location1,
   ...location2,
-});
+};
 
-const angleInDegree = mapsUtils.getDegreeAngleFromCoordinates({
-  ...location1,
-  ...location2,
-});
+const distanceInKm = mapsUtils.getDistanceFromCoordinates(coordinates);
+
+const angleInDegree = mapsUtils.getDegreeAngleFromCoordinates(coordinates);
+
+const transportation = Transportation.BUS;
+
+const timeInMn1 = mapsUtils.getTimeInMnFromKm(distance, transportation);
+
+const timeInMn2 = mapsUtils.getTimeInMnFromCoordinates(
+  coordinates,
+  transportation
+);
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -67,6 +74,15 @@ const angleInDegree = mapsUtils.getDegreeAngleFromCoordinates({
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- RESSOURCES -->
+
+## Ressources
+
+http://www.movable-type.co.uk/scripts/latlong.html
+https://www.calculatorsoup.com/calculators/math/speed-distance-time-calculator.php
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

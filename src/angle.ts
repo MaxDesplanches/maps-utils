@@ -1,19 +1,16 @@
+import { I2DCoordinates } from "./interface";
 import { degreesToRadians, radiansToDegrees } from "./utils";
 
-export function getDegreeAngleFromCoordinates({
-  latitude1,
-  longitude1,
-  latitude2,
-  longitude2,
-}: I2DCoordinates) {
-  const lat1 = degreesToRadians(latitude1);
-  const long1 = degreesToRadians(longitude1);
-  const lat2 = degreesToRadians(latitude2);
-  const long2 = degreesToRadians(longitude2);
-  //  latitude1 = 48.88055391;
-  //  longitude1 = 2.28308034;
-  //  latitude2 = 2.28369043;
-  //  longitude2 = degreesToRadians(longitude2);
+/**
+ *
+ * @param {I2DCoordinates} coordinates
+ * @returns {number} angle in degree
+ */
+export function getDegreeAngleFromCoordinates(coordinates: I2DCoordinates) {
+  const lat1 = degreesToRadians(coordinates.latitude1);
+  const long1 = degreesToRadians(coordinates.longitude1);
+  const lat2 = degreesToRadians(coordinates.latitude2);
+  const long2 = degreesToRadians(coordinates.longitude2);
   const x =
     Math.cos(lat1) * Math.sin(lat2) -
     Math.sin(lat1) * Math.cos(lat2) * Math.cos(long2 - long1);

@@ -1,4 +1,4 @@
-import { distanceInKmBetweenEarthCoordinates } from "../src";
+import { getDistanceFromCoordinates } from "../src";
 
 test("test distance", () => {
   const location1 = {
@@ -11,7 +11,7 @@ test("test distance", () => {
     longitude2: 3.8519288,
   };
 
-  const distance = distanceInKmBetweenEarthCoordinates({
+  const distance = getDistanceFromCoordinates({
     ...location1,
     ...location2,
   });

@@ -1,2 +1,3 @@
-export { distanceInKmBetweenEarthCoordinates } from "./distance";
-export { angleFromCoordinates } from "./angle";
+export * from "./distance";
+export * from "./angle";
+export * from "./time";
