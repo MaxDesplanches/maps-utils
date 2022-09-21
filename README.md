@@ -6,7 +6,7 @@
   <h3 align="center">Maps Utils</h3>
 
   <p align="center">
-    An package to have maps utils to calculate distance (Haversine formula), angle between coordinates 
+    An package to have maps utils to calculate distance and angle between coordinates, or time for traveling (on distance as the crow flies for now)
     <br />
 
 </div>
