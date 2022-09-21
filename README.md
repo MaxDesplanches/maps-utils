@@ -33,7 +33,7 @@ npm install @maxdesplanches/maps-utils
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
+## Usage (NodeJS, TypeScript below)
 
 ```javascript
 const mapsUtils = require("@maxdesplanches/maps-utils");
@@ -65,6 +65,45 @@ const timeInMn2 = mapsUtils.getTimeInMnFromCoordinates(
   coordinates,
   transportation
 );
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Usage (Typescript)
+
+```javascript
+import {
+  getTimeInMnFromKm,
+  getDegreeAngleFromCoordinates,
+  getDistanceFromCoordinates,
+  getTimeInMnFromCoordinates,
+  Transportation,
+} from "@maxdesplanches/maps-utils";
+
+const location1 = {
+  latitude1: 43.6206597,
+  longitude1: 3.8553517,
+};
+
+const location2 = {
+  latitude2: 43.6211969,
+  longitude2: 3.8519288,
+};
+
+const coordinates = {
+  ...location1,
+  ...location2,
+};
+
+const distanceInKm = getDistanceFromCoordinates(coordinates);
+
+const angleInDegree = getDegreeAngleFromCoordinates(coordinates);
+
+const transportation = Transportation.BUS;
+
+const timeInMn1 = getTimeInMnFromKm(distance, transportation);
+
+const timeInMn2 = getTimeInMnFromCoordinates(coordinates, transportation);
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
