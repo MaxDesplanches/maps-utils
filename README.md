@@ -3,8 +3,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/Map_making_conventions_logo.svg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/MaxDesplanches/maps-utils">
+    <img src="https://www.bim-immersion.com/Map_making_conventions_logo.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Maps Utils</h3>
