@@ -1,6 +1,6 @@
 {
   "name": "@maxdesplanches/maps-utils",
-  "version": "1.1.1",
+  "version": "1.1.3",
   "description": "Calculate distance, angle or time from 2D coordinates ! (latitude, longitude",
   "main": "./lib/src/index.js",
   "env": {
