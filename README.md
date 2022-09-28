@@ -10,7 +10,7 @@
 <h3 align="center">Maps Utils</h3>
 
   <p align="center">
-        An package to have maps utils to calculate distance and angle between coordinates, or time for traveling (on distance as the crow flies for now)
+        A package to have maps utils to calculate distance and angle between coordinates, or time for traveling (on distance as the crow flies for now)
     <br />
     <br />
     <a href="https://github.com/MaxDesplanches/maps-utils/issues">Report Bug</a>
